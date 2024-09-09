@@ -45,7 +45,7 @@ Open in folder `src` - **index.html**, **acquisitions**, **acquisitions2**, **ac
 
 [![image.png](https://i.postimg.cc/Gm1L9zZj/image.png)](https://postimg.cc/WhXLHmpD)
 
-## Online Map 
+## Online & Offline Map 
 
 Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `onlinemap.html` file.
 
