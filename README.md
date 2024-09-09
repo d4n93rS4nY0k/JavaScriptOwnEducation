@@ -41,6 +41,8 @@
 
 ### Another example of Chart.js usage
 
+Open **index.html**, **acquisitions**, **acquisitions2**, **acquisitions3**  
+
 [![image.png](https://i.postimg.cc/Gm1L9zZj/image.png)](https://postimg.cc/WhXLHmpD)
 
 ## Offline Map Proj
