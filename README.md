@@ -3,6 +3,7 @@
 ## Testing JS Plotly and Chart.js libraries
 
 - Chart.js line graph test [ *test.html* ]
+  
   ```html
   <div>
     <canvas id="myChart"></canvas>
