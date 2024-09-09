@@ -1,7 +1,8 @@
 # JavaScriptOwnEducation
 
 ## Testing JS Plotly and Chart.js libraries
-[![arduino-logo-0-1904931468.png](https://ibb.co/4NpNW1d)
+
+[![image.png](https://i.postimg.cc/XNr82gp3/image.png)](https://postimg.cc/QVr1C1Qn)
 
 ## Offline Map Proj
 
