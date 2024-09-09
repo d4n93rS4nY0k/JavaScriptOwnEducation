@@ -49,7 +49,7 @@ Open in folder `src` - **index.html**, **acquisitions**, **acquisitions2**, **ac
 
 Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `onlinemap.html` file.
 
-```
+``` html
 <!DOCTYPE html>
 <meta charset="utf-8">
 
