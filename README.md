@@ -7,9 +7,9 @@
   <div>
     <canvas id="myChart"></canvas>
   </div>
-<style>
+  <style>
 
-</style>
+  </style>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   
