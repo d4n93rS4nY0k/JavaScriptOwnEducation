@@ -2,7 +2,7 @@
 
 ## Testing JS Plotly and Chart.js libraries
 
-- Chart.js line graph test [ *test.html* ]
+### Chart.js line graph test [ *test.html* ]
   
   ```html
   <div>
@@ -37,8 +37,11 @@
     });
   </script>
   ```
-  
 [![image.png](https://i.postimg.cc/XNr82gp3/image.png)](https://postimg.cc/QVr1C1Qn)
+
+### Another example of Chart.js usage
+
+[![image.png](https://i.postimg.cc/Gm1L9zZj/image.png)](https://postimg.cc/WhXLHmpD)
 
 ## Offline Map Proj
 
