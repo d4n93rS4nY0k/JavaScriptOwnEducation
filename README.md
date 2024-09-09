@@ -41,10 +41,10 @@
 
 ### Another example of Chart.js usage
 
-Open in folder src - **index.html**, **acquisitions**, **acquisitions2**, **acquisitions3**  
+Open in folder `src` - **index.html**, **acquisitions**, **acquisitions2**, **acquisitions3**  
 
 [![image.png](https://i.postimg.cc/Gm1L9zZj/image.png)](https://postimg.cc/WhXLHmpD)
 
-## Offline Map Proj
+## Online Map 
 
-Making offline map on JavaScript 
+Making online map on `JavaScript & HTML5` using `OpenStreeMap`. 
