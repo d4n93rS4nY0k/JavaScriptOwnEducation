@@ -47,7 +47,7 @@ Open in folder `src` - **index.html**, **acquisitions**, **acquisitions2**, **ac
 
 ## Online & Offline Map 
 
-Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `onlinemap.html` file.
+- Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `onlinemap.html` file.
 
 ``` html
 <!DOCTYPE html>
@@ -76,3 +76,6 @@ Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `o
         }).addTo(mymap);
     </script>
 ```
+Here is what you will see in final result:
+
+[![image.png](https://i.postimg.cc/0j0ZgDBx/image.png)](https://postimg.cc/PvN1YpHF)
