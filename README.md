@@ -82,6 +82,6 @@ Here is what you will see in final result:
 
 ### Offline map
 
-Offline map looks the same as online but with downloaded tiles (`Folder Tiles`).
+Offline map looks the same as online but with downloaded tiles (folder `Tiles`).
 
 [![image.png](https://i.postimg.cc/MGyp1cbF/image.png)](https://postimg.cc/Y4C7HCP6)
