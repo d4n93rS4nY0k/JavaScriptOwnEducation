@@ -47,8 +47,10 @@ Open in folder `src` - **index.html**, **acquisitions**, **acquisitions2**, **ac
 
 ## Online & Offline Map 
 ### Online Map
-- Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `onlinemap.html` file.
 
+- Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `onlinemap.html` file.
+  Required `Leaflet` library
+  
 ``` html
 <!DOCTYPE html>
 <meta charset="utf-8">
