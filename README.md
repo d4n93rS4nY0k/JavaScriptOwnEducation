@@ -46,7 +46,7 @@ Open in folder `src` - **index.html**, **acquisitions**, **acquisitions2**, **ac
 [![image.png](https://i.postimg.cc/Gm1L9zZj/image.png)](https://postimg.cc/WhXLHmpD)
 
 ## Online & Offline Map 
-
+### Online Map
 - Making online map on `JavaScript & HTML5` using `OpenStreetMap`. See and open `onlinemap.html` file.
 
 ``` html
@@ -79,3 +79,9 @@ Open in folder `src` - **index.html**, **acquisitions**, **acquisitions2**, **ac
 Here is what you will see in final result:
 
 [![image.png](https://i.postimg.cc/0j0ZgDBx/image.png)](https://postimg.cc/PvN1YpHF)
+
+### Offline map
+
+Offline map looks the same as online but with downloaded tiles.
+
+[![image.png](https://i.postimg.cc/MGyp1cbF/image.png)](https://postimg.cc/Y4C7HCP6)
