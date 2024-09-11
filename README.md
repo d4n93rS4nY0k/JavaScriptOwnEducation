@@ -92,5 +92,5 @@ Offline map looks the same as online but with downloaded tiles (folder `Tiles`).
 
 To compile an HTML file into an .exe, I was able to find two working methods.
 
-- Using **Nativefier Tool** [![SEE NATIVEFIER TOOL](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://katherineoelsner.com/)
+- Using **Nativefier Tool** [See and Download Nativefier Tool]([https://linktodocumentation](https://github.com/nativefier/nativefier))
   https://raw.githubusercontent.com/nativefier/nativefier/master/.github/nativefier-walkthrough.gif
