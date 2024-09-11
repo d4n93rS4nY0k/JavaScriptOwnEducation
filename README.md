@@ -95,3 +95,4 @@ To compile an HTML file into an .exe, I was able to find two working methods.
 - Using **Nativefier Tool** [See and Download Nativefier Tool](https://github.com/nativefier/nativefier). 
 Follow the instructions for installing Nativefier.
 
+- Using HTML Compiler. 
