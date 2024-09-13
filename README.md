@@ -100,3 +100,4 @@ Follow the instructions for installing Nativefier.
 ## Making offline map with other tools
 
 Also added huge CSS file `button.css`
+Added buttons
