@@ -96,3 +96,5 @@ To compile an HTML file into an .exe, I was able to find two working methods.
 Follow the instructions for installing Nativefier.
 
 - Using **HTML Compiler**. Download HTML Compiler in folder `HTMLtoEXE`
+
+## Making offline map with other tools
