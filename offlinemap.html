@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Offline Tiles</title>
+
+    <link rel="stylesheet" href="leaflet/leaflet.css" />
+    <link href="button.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="map">
+        <script src="leaflet/leaflet.js"></script>
+        <script>
+
+            // Создание карты
+            var map = L.map('map').setView([51.710298, 46.748233], 11); 
+
+            // Загрузка карты
+            L.tileLayer('Tiles/{z}/{x}/{y}.png', {
+                maxZoom: 17,
+                tileSize: 256,
+                zoomOffset: 0,
+            }).addTo(map);
+
+            // Зеленый круговой маркер
+            L.circleMarker(L.latLng(51.52, -0.109), {
+                radius: 10,
+                fillColor: '#27ae60',
+                fillOpacity: 1,
+                color: '#fff',
+                weight: 3,
+            }).addTo(map);
+
+            // Маркер галочки и пунктирная линия
+            var marker2 = L.marker([55.431150, 37.544978]).addTo(map)
+            marker2.bindPopup("Best city")
+            var marker3 = L.marker([60.368, 70.38]).addTo(map)
+            var line = L.polyline([marker2.getLatLng(), marker3.getLatLng()], {color: 'red', weight: 1, dashArray: '5, 5', dashOffset: '0'}).addTo(map);
+
+        </script>
+    </div>
+
+<div class="container">
+    
+    <!-- Перемещение в Подольск -->
+    <div id ='button'>
+        <button class="glow-on-hover" id = 'submit'>Move to Podolsk</a>
+            <script>
+                document.querySelector("#submit").onclick = function(){
+                    map.setView([55.431150, 37.544978], map.getZoom(), {
+                        "animate": true,
+                        "pan": {
+                            "duration": 1
+                        }
+                    });
+                }
+                </script>
+    </div>
+
+    <!-- Ввод координат широты -->
+    <div class="form__group field">
+        <input id="latitude" class="form__field" placeholder="Широта" name="Широта" required/>
+        <label for="latitude" class="form__label">Широта</label>
+    </div>
+
+    <!-- Ввод координат долготы -->
+    <div class="form__group field">
+        <input id="longitude" class="form__field" placeholder="Долгота" name="Долгота" required/>
+        <label for="latitude" class="form__label">Долгота</label>
+    </div>
+
+    <div id="input">
+        
+        <button id="coordinates" class="glow-on-hover">Input coordinates</button>
+
+        <script>
+            function input() {
+                var lat = document.getElementById('latitude').value;
+                var long = document.getElementById('longitude').value;
+             
+                map.setView([lat, long], map.getZoom(), {
+                        "animate": true,
+                        "pan": {
+                            "duration": 1
+                        }
+                    });
+
+                var marker4 = L.marker([lat, long]).addTo(map)
+            }
+            document.getElementById('coordinates').addEventListener('click', input);
+        </script>
+    </div>
+</div>     
+</body>
+<html>
