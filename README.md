@@ -98,7 +98,7 @@ Follow the instructions for installing Nativefier.
 
 - Using **HTML Compiler**. Download HTML Compiler in folder `HTMLtoEXE`
 
-## Making offline map with other tools
+## Advanced Offline Map / Engineering GUI
 
 Also added huge CSS file `button.css`
 Added buttons
