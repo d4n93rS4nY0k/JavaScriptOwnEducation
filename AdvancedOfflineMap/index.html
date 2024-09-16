@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Offline Tiles</title>
+
+  <link rel="stylesheet" href="leaflet/leaflet.css" />
+  <link rel="stylesheet" href="button.css"/>
+
+</head>
+
+<body>
+    <canvas>
+      <h1>OFFLINE MAP</h1>
+    </canvas>
+
+    <div id="map">
+      <script src="leaflet/leaflet.js"></script>
+      <script src="map.js"></script>
+    </div>
+
+  <div class="container">
+
+    <!-- Перемещение в Подольск -->
+    <div id ='button'>
+        <button class="glow-on-hover" id = 'submit'>Move to Podolsk</a>
+            <script>
+                document.querySelector("#submit").onclick = function(){
+                    map.setView([55.431150, 37.544978], map.getZoom(), {
+                        "animate": true,
+                        "pan": {
+                            "duration": 1
+                        }
+                    });
+                }
+                </script>
+    </div>
+
+    <!-- Ввод координат широты -->
+      <div class="form__group field">
+          <input id="latitude" class="form__field" placeholder="Широта" name="Широта" required/>
+          <label for="latitude" class="form__label">Широта</label>
+      </div>
+
+    <!-- Ввод координат долготы -->
+    <div class="form__group field">
+        <input id="longitude" class="form__field" placeholder="Долгота" name="Долгота" required/>
+        <label for="longitude" class="form__label">Долгота</label>
+    </div>
+
+    <!-- Кнопка отображения координаты и запись данных -->
+    <div id="input">
+        <button id="coordinates" class="glow-on-hover" onclick="input(); sendMessage();">Input coordinates</button>
+
+        <script>
+          function input() {
+
+              var lat = document.getElementById('latitude').value;
+              var long = document.getElementById('longitude').value;
+
+              map.setView([lat, long], map.getZoom(18), {
+                      "animate": true,
+                     "pan": {
+                          "duration": 1
+                      }
+                  });
+
+              var marker4 = L.marker([lat, long]).addTo(map)
+          }
+          document.getElementById('coordinates').addEventListener('click', input);
+        </script>
+
+        <script>
+          const socket = new WebSocket('ws://localhost:8080');
+
+          socket.onopen = function (event) {
+          };
+
+          socket.onclose = function (event) {
+              console.log('Disconnected from WebSocket server');
+          };
+
+          function sendMessage() {
+              const latitude1 = document.getElementById('latitude');
+              const longitude1 = document.getElementById('longitude');
+
+              const latitudeInput = latitude1.value;
+              const longitudeInput = longitude1.value;
+              socket.send("Широта " + latitudeInput + " " + "Долгота " + longitude.value);
+          }
+        </script>
+
+    </div>
+  </div>
+
+</body>
+</html>
