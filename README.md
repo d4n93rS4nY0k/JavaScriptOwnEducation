@@ -104,3 +104,4 @@ Also added huge CSS file `button.css`
 Added buttons
 
 Learning how to connect DLL libraries via Node.js
+Unable to install NODE-FFI addon 
