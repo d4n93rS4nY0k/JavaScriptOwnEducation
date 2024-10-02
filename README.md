@@ -102,3 +102,5 @@ Follow the instructions for installing Nativefier.
 
 Also added huge CSS file `button.css`
 Added buttons
+
+Learning how to connect DLL libraries via Node.js
