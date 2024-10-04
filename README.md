@@ -104,7 +104,7 @@ In advanced Offline map I have added background, functional buttons and input fo
 
 [![image.png](https://i.postimg.cc/vT93m6wG/image.png)](https://postimg.cc/q6J8bq7F)
 
-
+[![image.png](https://i.postimg.cc/bJqYN9fk/image.png)](https://postimg.cc/KKsh0Lz8)
 
 Also added huge CSS file `button.css`
 Added buttons
