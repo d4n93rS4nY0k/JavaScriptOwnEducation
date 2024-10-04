@@ -102,7 +102,7 @@ Follow the instructions for installing Nativefier.
 
 In advanced Offline map I have added background functional buttons and input forms.
 
-[![image.png](https://i.postimg.cc/HWSCDCZp/image.png)](https://postimg.cc/LhZWLGF7)
+[![image.png](https://i.postimg.cc/vT93m6wG/image.png)](https://postimg.cc/q6J8bq7F)
 
 Also added huge CSS file `button.css`
 Added buttons
