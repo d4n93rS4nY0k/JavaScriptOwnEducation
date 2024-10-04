@@ -100,9 +100,11 @@ Follow the instructions for installing Nativefier.
 
 ## Advanced Offline Map / Engineering GUI
 
-In advanced Offline map I have added background functional buttons and input forms.
+In advanced Offline map I have added background, functional buttons and input forms.
 
 [![image.png](https://i.postimg.cc/vT93m6wG/image.png)](https://postimg.cc/q6J8bq7F)
+
+
 
 Also added huge CSS file `button.css`
 Added buttons
