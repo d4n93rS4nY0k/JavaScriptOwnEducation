@@ -109,4 +109,5 @@ Made a pretty design when hovering the cursor over the button:
 [![image.png](https://i.postimg.cc/bJqYN9fk/image.png)](https://postimg.cc/KKsh0Lz8)
 
 Learning how to connect DLL libraries via Node.js
-Unable to install NODE-FFI addon 
+
+Huge disadvantage of `FFi` library - supported version only node.js 11
