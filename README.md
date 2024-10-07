@@ -110,4 +110,4 @@ Made a pretty design when hovering the cursor over the button:
 
 Learning how to connect DLL libraries via Node.js
 
-Huge disadvantage of `FFi` library - supported version only **Node.js 11** and lower
+Huge disadvantage of `FFi` library - supported version only **Node.js 11** and lower.
