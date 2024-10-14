@@ -2,6 +2,8 @@
 
 - GUI design - task completed in 5 days
 
+- https://www.npmjs.com/package/@jellybrick/ffi-napi
+
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
