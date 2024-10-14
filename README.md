@@ -1,6 +1,6 @@
 # JavaScriptOwnEducation
 
-GUI design - task completed in 5 days
+- GUI design - task completed in 5 days
 
 ## Testing JS Plotly and Chart.js libraries
 
