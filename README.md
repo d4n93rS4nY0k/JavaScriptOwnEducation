@@ -4,6 +4,8 @@
 
 - https://www.npmjs.com/package/@jellybrick/ffi-napi
 
+  Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
+
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
