@@ -4,7 +4,9 @@
 
 - https://www.npmjs.com/package/@jellybrick/ffi-napi
 
-  Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
+Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
+
+Generate .dll from .cpp  `gcc -shared -o hello.dll hello.cpp`
 
 ## Testing JS Plotly and Chart.js libraries
 
