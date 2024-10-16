@@ -8,7 +8,7 @@ Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
 
 Generate .dll from .cpp  `gcc -shared -o hello.dll hello.cpp`
 
-Command to test .dll files on export functions dumpbin /EXPORTS MyLibrary.dll
+Command to test .dll files on export functions `dumpbin /EXPORTS MyLibrary.dll`
 
 Needed output functions name like this:
 
