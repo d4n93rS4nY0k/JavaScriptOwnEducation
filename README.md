@@ -8,6 +8,8 @@ Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
 
 Generate .dll from .cpp  `gcc -shared -o hello.dll hello.cpp`
 
+Command to test .dll files on export functions dumpbin /EXPORTS MyLibrary.dll
+
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
