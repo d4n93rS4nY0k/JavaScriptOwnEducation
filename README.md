@@ -54,6 +54,14 @@ void printMessage(const char* message) {
 }
 ```
 
+5. Compile the project:
+
+- Click Build → Build Solution (or Ctrl+Shift+B).
+
+- The DLL will be created in the Debug or Release folder, depending on the configuration.
+
+- The path to the file will be something like this:
+
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
