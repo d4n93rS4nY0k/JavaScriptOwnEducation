@@ -10,7 +10,7 @@ Generate .dll from .cpp  `gcc -shared -o hello.dll hello.cpp`
 
 Command to test .dll files on export functions dumpbin /EXPORTS MyLibrary.dll
 
-Needed output like this:
+Needed output functions name like this:
 
 ```python
 ordinal hint RVA      name
