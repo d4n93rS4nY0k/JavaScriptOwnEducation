@@ -18,7 +18,7 @@ ordinal hint RVA      name
       2    1 00001010 printMessage
 ```
 
-##How to export DLLs from Visual Studio 2022
+## How to export DLLs from Visual Studio 2022
 
 
 ## Testing JS Plotly and Chart.js libraries
