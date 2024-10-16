@@ -62,6 +62,10 @@ void printMessage(const char* message) {
 
 - The path to the file will be something like this:
 
+```python
+<путь_к_проекту>\x64\Debug\MyLibrary.dll
+```
+
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
