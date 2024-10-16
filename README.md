@@ -29,8 +29,6 @@ ordinal hint RVA      name
 - Select Header File (.h) and name the file `my_library.h`.
 - Add the code to the my_library.h header file:
 
-Translated with DeepL.com (free version)
-
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
