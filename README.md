@@ -27,7 +27,7 @@ ordinal hint RVA      name
 2. Create a header file:
 - In Solution Explorer, right-click the Header Files folder → Add → New Item.
 - Select Header File (.h) and name the file `my_library.h`.
-3. Add the code to the my_library.h header file:
+3. Add the code to the `my_library.h` header file:
 ```python
 #pragma once
 
