@@ -20,6 +20,16 @@ ordinal hint RVA      name
 
 ## How to export DLLs from Visual Studio 2022
 
+1. Open Visual Studio 2022 and create a new project:
+- Go to File → New → Project.
+- In the Create a new project dialog box, select the `Dynamic-Link Library (DLL)` template for C++ and click Next.
+- Name the project MyLibrary, select a path to save it, and click Create.
+2. Create a header file:
+- In Solution Explorer, right-click the Header Files folder → Add → New Item.
+- Select Header File (.h) and name the file `my_library.h`.
+- Add the code to the my_library.h header file:
+
+Translated with DeepL.com (free version)
 
 ## Testing JS Plotly and Chart.js libraries
 
