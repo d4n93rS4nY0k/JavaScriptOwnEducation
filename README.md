@@ -10,6 +10,14 @@ Generate .dll from .cpp  `gcc -shared -o hello.dll hello.cpp`
 
 Command to test .dll files on export functions dumpbin /EXPORTS MyLibrary.dll
 
+Needed output like this:
+
+```python
+ordinal hint RVA      name
+      1    0 00001000 add
+      2    1 00001010 printMessage
+```
+
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
