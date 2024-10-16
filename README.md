@@ -41,6 +41,19 @@ This file defines the exported add and printMessage functions.
 4. Add the implementation to the .cpp file:
 - Open the `MyLibrary.cpp` file and replace its contents with the following code:
 
+```python
+#include "my_library.h"
+#include <iostream>
+
+int add(int a, int b) {
+    return a + b;
+}
+
+void printMessage(const char* message) {
+    std::cout << message << std::endl;
+}
+```
+
 ## Testing JS Plotly and Chart.js libraries
 
 ### Chart.js line graph test [ *test.html* ]
