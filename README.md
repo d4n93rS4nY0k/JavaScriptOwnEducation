@@ -36,6 +36,10 @@ extern "C" {
     __declspec(dllexport) void printMessage(const char* message);
 }
 ```
+This file defines the exported add and printMessage functions.
+
+4. Add the implementation to the .cpp file:
+- Open the `MyLibrary.cpp` file and replace its contents with the following code:
 
 ## Testing JS Plotly and Chart.js libraries
 
