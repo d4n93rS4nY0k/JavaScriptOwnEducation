@@ -1,5 +1,16 @@
 # JavaScriptOwnEducation
 
+## ELECTRON PACKAGING
+
+Использовать Electron Packager или Electron Builder:
+
+- Electron Packager: можно упаковать с помощью electron-packager. Например:
+
+  ```
+electron-packager . MyApp --platform=win32 --arch=x64 --out=dist --overwrite
+
+  ```
+
 - GUI design - task completed in 5 days
 
 Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
