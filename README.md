@@ -6,10 +6,10 @@
 
 - Electron Packager: можно упаковать с помощью electron-packager. Например:
 
-  ```
+```python
 electron-packager . MyApp --platform=win32 --arch=x64 --out=dist --overwrite
 
-  ```
+```
 
 - GUI design - task completed in 5 days
 
