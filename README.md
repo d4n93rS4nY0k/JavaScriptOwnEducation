@@ -70,6 +70,8 @@ ordinal hint RVA      name
 
 ## Testing JS Plotly and Chart.js libraries
 
+### How to install Plotly.js
+
 ### Chart.js line graph test [ *test.html* ]
   
   ```html
