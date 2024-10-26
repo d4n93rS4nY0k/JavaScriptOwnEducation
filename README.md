@@ -75,7 +75,7 @@ ordinal hint RVA      name
 Download the Plotly.js library file:
 
 - Go to the official Plotly.js GitHub site: Plotly.js releases.
-Find the latest version (or the version you need) and download the plotly-latest.min.js file or another available minified version, such as plotly.min.js.
+Find the latest version (or the version you need) and download the `plotly-latest.min.js` file or another available minified version, such as plotly.min.js.
 
 - Save the file in your project:
 
