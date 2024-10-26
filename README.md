@@ -92,7 +92,38 @@ Use the library as usual:
 
 Once the local version is connected, Plotly.js will work the same as when connected via CDN.
 
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plotly Offline Example</title>
+</head>
+<body>
 
+    <div id="plotlyChart"></div>
+
+    <!-- Подключение локального Plotly -->
+    <script src="./libs/plotly.min.js"></script>
+
+    <script>
+        // Пример создания графика
+        var trace = {
+            x: [1, 2, 3, 4],
+            y: [10, 15, 13, 17],
+            mode: 'lines+markers',
+            type: 'scatter'
+        };
+        
+        var data = [trace];
+
+        Plotly.newPlot('plotlyChart', data);
+    </script>
+
+</body>
+</html>
+```
 
 ### Chart.js line graph test [ *test.html* ]
   
