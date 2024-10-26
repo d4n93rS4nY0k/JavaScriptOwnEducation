@@ -9,15 +9,6 @@
 ```python
 electron-packager . MyApp --platform=win32 --arch=x64 --out=dist --overwrite
 ```
-Command to test .dll files on export functions `dumpbin /EXPORTS MyLibrary.dll`
-
-Needed output functions name like this:
-
-```python
-ordinal hint RVA      name
-      1    0 00001000 add
-      2    1 00001010 printMessage
-```
 
 ## How to export DLLs from Visual Studio 2022
 
@@ -65,6 +56,16 @@ void printMessage(const char* message) {
 
 ```python
 <путь_к_проекту>\x64\Debug\MyLibrary.dll
+```
+
+Command to test .dll files on export functions `dumpbin /EXPORTS MyLibrary.dll`
+
+Needed output functions name like this:
+
+```python
+ordinal hint RVA      name
+      1    0 00001000 add
+      2    1 00001010 printMessage
 ```
 
 ## Testing JS Plotly and Chart.js libraries
