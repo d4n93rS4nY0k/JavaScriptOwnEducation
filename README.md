@@ -9,12 +9,6 @@
 ```python
 electron-packager . MyApp --platform=win32 --arch=x64 --out=dist --overwrite
 ```
-
-
-Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
-
-Generate .dll from .cpp  `gcc -shared -o hello.dll hello.cpp`
-
 Command to test .dll files on export functions `dumpbin /EXPORTS MyLibrary.dll`
 
 Needed output functions name like this:
@@ -191,3 +185,10 @@ Huge disadvantage of `FFi` library - supported version only **Node.js 11** and l
 Electron initialization:
 
 https://habr.com/ru/companies/ruvds/articles/436466/
+
+##How to export .dll DUMB METHOD
+
+Generate .dll from .cpp  `gcc -shared -o myLib.so main.c`
+
+Generate .dll from .cpp  `gcc -shared -o hello.dll hello.cpp`
+
