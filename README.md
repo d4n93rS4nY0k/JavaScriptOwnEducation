@@ -79,9 +79,9 @@ Find the latest version (or the version you need) and download the plotly-latest
 
 - Save the file in your project:
 
-- Place the downloaded file in a project folder, such as ./libs/plotly.min.js.
+- Place the downloaded file in a project folder, such as `./libs/plotly.min.js`
 
-Plug Plotly.js locally into the HTML:
+Plug `Plotly.js` locally into the HTML:
 
 Replace the link to the CDN with the path to the local file, for example:
 
@@ -90,8 +90,10 @@ Replace the link to the CDN with the path to the local file, for example:
 ```
 Use the library as usual:
 
-Once the local version is connected, Plotly.js will work the same as when connected via CDN.
+Once the local version is connected, `Plotly.js` will work the same as when connected via CDN.
 
+
+Example of html usage `Plotly.js`
 ```html
 <!DOCTYPE html>
 <html lang="en">
