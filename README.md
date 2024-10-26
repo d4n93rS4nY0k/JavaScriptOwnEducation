@@ -72,6 +72,28 @@ ordinal hint RVA      name
 
 ### How to install Plotly.js
 
+Download the Plotly.js library file:
+
+- Go to the official Plotly.js GitHub site: Plotly.js releases.
+Find the latest version (or the version you need) and download the plotly-latest.min.js file or another available minified version, such as plotly.min.js.
+
+- Save the file in your project:
+
+- Place the downloaded file in a project folder, such as ./libs/plotly.min.js.
+
+Plug Plotly.js locally into the HTML:
+
+Replace the link to the CDN with the path to the local file, for example:
+
+```html
+<script src=“./libs/plotly.min.js”></script>
+```
+Use the library as usual:
+
+    Once the local version is connected, Plotly.js will work the same as when connected via CDN.
+
+Translated with DeepL.com (free version)
+
 ### Chart.js line graph test [ *test.html* ]
   
   ```html
