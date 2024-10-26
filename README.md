@@ -89,6 +89,7 @@ Replace the link to the CDN with the path to the local file, for example:
 <script src=“./libs/plotly.min.js”></script>
 ```
 Use the library as usual:
+
 Once the local version is connected, Plotly.js will work the same as when connected via CDN.
 
 
