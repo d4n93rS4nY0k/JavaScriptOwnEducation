@@ -2,9 +2,9 @@
 
 ## ELECTRON PACKAGING
 
-Использовать Electron Packager или Electron Builder:
+Use Electron Packager or Electron Builder:
 
-- Electron Packager: можно упаковать с помощью electron-packager. Например:
+- Electron Packager: you can pack using electron-packager. For example:
 
 ```python
 electron-packager . MyApp --platform=win32 --arch=x64 --out=dist --overwrite
