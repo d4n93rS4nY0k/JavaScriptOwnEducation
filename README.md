@@ -1,5 +1,20 @@
 # JavaScriptOwnEducation
 
+## COLORS
+
+Основные цвета:
+
+    Голубой (Primary): #00AEEF
+    Насыщенный морской (Secondary): #007B83
+    Светло-голубой (Accent): #B2EBF2
+    Мягкий бирюзовый: #81D4FA
+    Глубокий морской: #005662
+
+Нейтральные:
+
+    Белый: #FFFFFF
+    Серебристо-серый: #E0F7FA
+
 ## ELECTRON PACKAGING
 
 Use Electron Packager or Electron Builder:
