@@ -1,7 +1,5 @@
 # JavaScriptOwnEducation
 
-https://github.com/bhuh12/vue-router-tab
-
 ## COLORS
 
 Основные цвета:
