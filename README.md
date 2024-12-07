@@ -1,6 +1,6 @@
 # JavaScriptOwnEducation
 
-## Vue.js GUI ESP8266 & ESP32-S3 development
+## **Vue.js GUI ESP8266 & ESP32-S3 development**
 
 
 
